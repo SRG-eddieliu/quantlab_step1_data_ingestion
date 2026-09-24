@@ -1,4 +1,10 @@
-# quantlab_data_pipeline_api
+# QuantLab Data Ingestion (Legacy Component)
+
+> **Consolidated implementation:** start with [Systematic Alpha Lab](https://github.com/SRG-eddieliu/systematic-alpha-lab) and its [`data_pipeline` package](https://github.com/SRG-eddieliu/systematic-alpha-lab/tree/main/src/systematic_alpha_lab/data_pipeline).
+>
+> This repository is retained as an earlier standalone implementation. The notes below describe that version, including its original paths and assumptions. They are not evidence of a validated investment strategy. See the consolidated repository for current scope, evaluation limitations, and planned work.
+
+## Original Component Documentation
 
 Automated pipeline for ingesting, transforming, and serving financial and economic time-series data using WRDS constituents and Alpha Vantage MCP tools. Data is written to external Parquet stores (raw and final long format), with logging and quality checks.
 
